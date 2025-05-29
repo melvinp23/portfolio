@@ -17,7 +17,7 @@ This site showcases my projects, skills, and contact information.
 
 ## Get in Touch
 
-Feel free to reach out via melvin.pamplona@gmail.com (mailto:melvin.pamplona@gmail.com).
+Feel free to reach out via melvin.pamplona@gmail.com.
 
 ---
 
