@@ -107,6 +107,50 @@ nav a:hover {
 	min-width: 300px;
 }
 
+/* Skills Section */
+.skills-list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	margin-top: 30px;
+	padding: 0;
+}
+
+.skills-list li {
+	background: var(--light-color);
+	border: 1px solid #eee;
+	border-radius: 8px;
+	padding: 18px 32px;
+	font-size: 1.1em;
+	font-weight: 700;
+	color: var(--primary-color);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+	transition: transform 0.2s, box-shadow 0.2s;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 100px;
+}
+
+.skills-list li:hover {
+	transform: translateY(-4px) scale(1.05);
+	box-shadow: 0 6px 18px rgba(74, 111, 165, 0.08);
+}
+
+.skill-logo {
+	width: 48px;
+	height: 48px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.skills-list span {
+	margin-top: 4px;
+	font-size: 1em;
+	color: var(--primary-color);
+}
+
 .profile-img {
 	width: 200px;
 	height: 200px;
@@ -191,5 +235,26 @@ nav a:hover {
 	.about-content {
 		flex-direction: column;
 		text-align: center;
+	}
+
+	.skills-list {
+		flex-direction: column;
+		align-items: center;
+		gap: 16px;
+	}
+	.skills-list li {
+		width: 80%;
+		text-align: center;
+		flex-direction: row;
+		justify-content: flex-start;
+		min-width: unset;
+		padding: 14px 18px;
+	}
+	.skill-logo {
+		margin-bottom: 0;
+		margin-right: 16px;
+	}
+	.skills-list span {
+		margin-top: 0;
 	}
 }
