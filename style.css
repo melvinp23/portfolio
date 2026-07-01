@@ -39,8 +39,7 @@ body {
 	margin-bottom: 20px;
 }
 
-#name,
-#address {
+#name {
 	font-weight: bold;
 }
 
@@ -50,5 +49,9 @@ p {
 
 #links {
 	display: flex;
+	gap: 5px;
+}
+
+#icons {
 	gap: 5px;
 }
